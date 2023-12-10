@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoinLab - Loja Online</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <div id="menu-header">
+            <header>
+                <a href="../../index.html">
+                    <h1>ZoinLabs</h1>
+                    <img src="../img/zoinLab-transformed.png" alt="Zoin Lab">
+                </a>
+                <img src="../img/zoinLab-transformed.png" alt="Zoin Lab">
+            </header>
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="O que você procura?">
+                <img src="../img/search.png" alt="Buscar">
+            </div>
+            <div id="divUser">
+                <img src="../img/user.png" alt="Usuário">
+                <p>Cadastre-se</p>
+                <p>|</p>
+                <p>Fazer Login</p>
+                <img src="../img/cart.png" alt="Carrinho de compras">
+            </div>
+        </div>
+        <nav class="container">
+            <ul>
+                <li>
+                    <a href="cadastro.html">CADASTRAR PRODUTOS</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">PORTFÓLIO</a>
+                </li>
+            </ul>
+        </nav>
+       <section class="produto container">
+            <img id="zoin" src="../img/zoinmaloqueiro.png" alt="Zoin">
+            <div>
+                <p id="strong-red" class="strong">Cadastrar Produto</p>
+                <form action="">
+                    <label for="iNome">Nome:</label>
+                    <input type="text" name="iNome" id=""><br>
+                    <label for="iEmail">Email:</label>
+                    <input type="email" name="iEmail" id=""><br><br>
+                    <select>
+                        <option selected disabled>Selecione abaixo</option>
+                        <option value="">Whey</option>
+                        <option value="">Creatina</option>
+                        <option value="">Pré-Treino</option>
+                    </select>
+                    <label for="iText">Dê detalhes sobre o produto:</label>
+                   <textarea name="iText" id="" cols="30" rows="10"></textarea>
+                    <p class="enviar">ENVIAR</p>
+                </form>
+            </div>
+       </section>
+</body>
+</html>
